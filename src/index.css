@@ -11,3 +11,71 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.calculator-body{
+  height: 516px;
+  width: 350px;
+  margin: 0 auto;
+  margin-top: 3rem;
+  border: 1px solid rgb(215, 215, 215);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem;
+  background-color: rgb(207, 207, 207);
+  box-shadow: 0 0 10px rgb(210, 210, 210);
+}
+p{
+  display: inline-block;
+  white-space:nowrap;
+  overflow: hidden;
+}
+p:hover{
+  overflow: visible;
+}
+.result:hover{
+  background-color: rgba(0, 132, 255, 0.5);
+ overflow:  auto;
+}
+.result{
+  height: 25%;
+  width: 89%;
+
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  text-align: right;
+  font-size: 3rem;
+
+  margin-bottom: 0.2rem;
+  padding-left: 0.5rem;
+  padding-right: 1rem;
+
+  background-color: rgba(205, 221, 240, 0.8);
+}
+
+.board{
+  
+  max-height: 75%;
+  margin: auto;
+
+}
+button{
+  width: 4.5rem;
+  height: 4.5rem;
+}
+.button:hover {
+  box-shadow: 0 0 5px rgba(0, 132, 255, 0.5);
+  background-color: rgba(0, 132, 255, 0.5);
+
+}
+
+#zero{
+  width: 9rem;
+}
+#equal{
+  display: inline-block;
+  position: absolute;
+  height: 9rem;
+  
+}
