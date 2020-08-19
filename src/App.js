@@ -93,7 +93,7 @@ class KeyPad extends React.Component {
     return (
       <div className="board">
         <button name="C" onClick={e => this.props.onClick(e.target.name)}>C</button>
-        <button name="back" onClick={e => this.props.onClick(e.target.name)}>back</button>
+        <button name="back" onClick={e => this.props.onClick(e.target.name)}> ← </button>
         <button name="÷" onClick={e => this.props.onClick(e.target.name)}>÷</button>
         <button name="*" onClick={e => this.props.onClick(e.target.name)}>x</button> <br />
 
